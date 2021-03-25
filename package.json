@@ -1,0 +1,32 @@
+{
+  "name": "twofifteen-api-rest-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "",
+    "nodemon": "nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenJBurns/twofifteen-api-rest-node.git"
+  },
+  "author": "SJB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenJBurns/twofifteen-api-rest-node/issues"
+  },
+  "homepage": "https://github.com/StevenJBurns/twofifteen-api-rest-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.35",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
